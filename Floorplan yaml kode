@@ -1,0 +1,250 @@
+type: picture-elements
+image: Link til billede "Når alt er slukket"
+elements:
+  - type: image
+    entity: light.lumi_lumi_switch_n0agl1_51522100_on_off
+    state_image:
+      'on': Link til billede "on"
+      'off': Link til billede "Transparent"
+    style:
+      top: 50%
+      left: 50%
+      width: 100%
+  - type: image
+    entity: light.lumi_lumi_switch_n0agl1_97422100_on_off
+    state_image:
+      'on': Link til billede "on"
+      'off': Link til billede "Transparent"
+    style:
+      top: 50%
+      left: 50%
+      width: 100%
+  - type: image
+    entity: light.lumi_lumi_switch_n0agl1_on_off
+    state_image:
+      'on': Link til billede "on"
+      'off': Link til billede "Transparent"
+    style:
+      top: 50%
+      left: 50%
+      width: 100%
+  - type: image
+    entity: light.lumi_lumi_switch_n0agl1_999a1500_on_off
+    state_image:
+      'on': Link til billede "on"
+      'off': Link til billede "Transparent"
+    style:
+      top: 50%
+      left: 50%
+      width: 100%
+  - type: image
+    entity: light.lumi_lumi_switch_n0agl1_da532100_on_off
+    state_image:
+      'on': Link til billede "on"
+      'off': Link til billede "Transparent"
+    style:
+      top: 50%
+      left: 50%
+      width: 100%
+  - type: image
+    entity: light.lumi_lumi_switch_n0agl1_623e2100_on_off
+    state_image:
+      'on': Link til billede "on"
+      'off': Link til billede "Transparent"
+    style:
+      top: 50%
+      left: 50%
+      width: 100%
+  - type: image
+    entity: light.lumi_lumi_switch_n0agl1_679a1500_on_off
+    state_image:
+      'on': Link til billede "on"
+      'off': Link til billede "Transparent"
+    style:
+      top: 52%
+      left: 50%
+      width: 100%
+  - type: image
+    entity: light.lumi_lumi_switch_n0agl1_8f512100_on_off
+    state_image:
+      'on': Link til billede "on"
+      'off': Link til billede "Transparent"
+    style:
+      top: 52%
+      left: 50%
+      width: 100%
+  - type: image
+    entity: light.lumi_lumi_switch_n0agl1_8f512100_on_off
+    state_image:
+      'on': Link til billede "on"
+      'off': Link til billede "Transparent"
+    style:
+      top: 52%
+      left: 50%
+      width: 100%
+  - type: image
+    entity: light.lumi_lumi_switch_n0agl1_5b3f2100_on_off
+    state_image:
+      'on': Link til billede "on"
+      'off': Link til billede "Transparent"
+    style:
+      top: 52%
+      left: 50%
+      width: 100%
+  - type: image
+    entity: light.signify_netherlands_b_v_lca004_4d739c0b_level_light_color_on_off
+    state_image:
+      'on': Link til billede "on"
+      'off': Link til billede "Transparent"
+    style:
+      top: 52%
+      left: 50%
+      width: 100%
+  - type: image
+    entity: light.ikea_of_sweden_tradfri_bulb_e27_cws_806lm_light
+    state_image:
+      'on': Link til billede "on"
+      'off': Link til billede "Transparent"
+    style:
+      top: 52%
+      left: 50%
+      width: 100%
+  - type: image
+    entity: light.signify_netherlands_b_v_lca004_level_light_color_on_off
+    state_image:
+      'on': Link til billede "on"
+      'off': Link til billede "Transparent"
+    style:
+      top: 52%
+      left: 50%
+      width: 100%
+  - type: state-icon
+    name: trappe
+    entity: light.lumi_lumi_switch_n0agl1_51522100_on_off
+    tap_action:
+      action: toggle
+    style:
+      left: 39%
+      top: 80%
+      '--mdc-icon-size': 25px
+      '--paper-item-icon-color': white
+  - type: state-icon
+    name: tv bord
+    entity: light.lumi_lumi_switch_n0agl1_97422100_on_off
+    tap_action:
+      action: toggle
+    style:
+      left: 58%
+      top: 73%
+      '--mdc-icon-size': 25px
+      '--paper-item-icon-color': white
+  - type: state-icon
+    name: spisebord
+    entity: light.lumi_lumi_switch_n0agl1_on_off
+    tap_action:
+      action: toggle
+    style:
+      left: 77%
+      top: 70%
+      '--mdc-icon-size': 25px
+      '--paper-item-icon-color': white
+  - type: state-icon
+    name: brændeovn
+    entity: light.lumi_lumi_switch_n0agl1_999a1500_on_off
+    tap_action:
+      action: toggle
+    style:
+      left: 74%
+      top: 35%
+      '--mdc-icon-size': 25px
+      '--paper-item-icon-color': white
+  - type: state-icon
+    name: køkken lys vask
+    entity: light.lumi_lumi_switch_n0agl1_da532100_on_off
+    tap_action:
+      action: toggle
+    style:
+      left: 55%
+      top: 31%
+      '--mdc-icon-size': 25px
+      '--paper-item-icon-color': white
+  - type: state-icon
+    name: køkken lys ovn
+    entity: light.lumi_lumi_switch_n0agl1_623e2100_on_off
+    tap_action:
+      action: toggle
+    style:
+      left: 55%
+      top: 50%
+      '--mdc-icon-size': 25px
+      '--paper-item-icon-color': white
+  - type: state-icon
+    name: badeværelse
+    entity: light.lumi_lumi_switch_n0agl1_679a1500_on_off
+    tap_action:
+      action: toggle
+    style:
+      left: 40%
+      top: 35%
+      '--mdc-icon-size': 25px
+      '--paper-item-icon-color': white
+  - type: state-icon
+    name: bryggers og teknikrum
+    entity: light.lumi_lumi_switch_n0agl1_8f512100_on_off
+    tap_action:
+      action: toggle
+    style:
+      left: 31%
+      top: 35%
+      '--mdc-icon-size': 25px
+      '--paper-item-icon-color': white
+  - type: state-icon
+    name: bryggers og teknikrum
+    entity: light.lumi_lumi_switch_n0agl1_8f512100_on_off
+    tap_action:
+      action: toggle
+    style:
+      left: 19%
+      top: 40%
+      '--mdc-icon-size': 25px
+      '--paper-item-icon-color': white
+  - type: state-icon
+    name: gang
+    entity: light.lumi_lumi_switch_n0agl1_5b3f2100_on_off
+    tap_action:
+      action: toggle
+    style:
+      left: 35%
+      top: 53%
+      '--mdc-icon-size': 25px
+      '--paper-item-icon-color': white
+  - type: state-icon
+    name: køkkenbord lys 3
+    entity: light.signify_netherlands_b_v_lca004_4d739c0b_level_light_color_on_off
+    tap_action:
+      action: toggle
+    style:
+      left: 64%
+      top: 26%
+      '--mdc-icon-size': 25px
+      '--paper-item-icon-color': white
+  - type: state-icon
+    name: køkkenbord lys 2
+    entity: light.ikea_of_sweden_tradfri_bulb_e27_cws_806lm_light
+    tap_action:
+      action: toggle
+    style:
+      left: 64%
+      top: 35%
+      '--mdc-icon-size': 25px
+      '--paper-item-icon-color': white
+  - type: state-icon
+    name: køkkenbord lys 1
+    entity: light.signify_netherlands_b_v_lca004_level_light_color_on_off
+    tap_action:
+      action: toggle
+    style:
+      left: 64%
+      top: 44%
+      '--mdc-icon-size': 25px
+      '--paper-item-icon-color': white
